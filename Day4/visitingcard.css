@@ -1,0 +1,60 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      padding: 40px;
+    }
+    .card {
+      width: 600px;
+      height: 250px;
+      background: white;
+      display: flex;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+    .card .left,
+    .card .right {
+      width: 50%;
+      position: relative;
+    }
+    .left {
+      padding: 30px;
+    }
+    .name {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .surname {
+      color: #6A1B9A;
+    }
+    .info {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .info div {
+      margin: 10px 0;
+    }
+    .right {
+      background: linear-gradient(135deg, #6A1B9A, #8E24AA);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .company-name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .slogan {
+      font-size: 12px;
+    }
+
+    
