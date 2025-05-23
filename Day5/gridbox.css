@@ -1,0 +1,27 @@
+.main{
+
+}
+.container{
+    height:80vh;
+    width:80vw;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns:80px 160px 80px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content:center;
+    align-content:center; 
+
+}
+
+.box{
+    background-color:blue;
+    border:black 1px solid;
+    color:white;
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+
+.black{
+    color:black;
+}
