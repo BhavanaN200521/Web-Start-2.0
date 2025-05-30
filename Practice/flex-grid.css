@@ -1,0 +1,30 @@
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #81eebd12;
+    }
+
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      background-color: #b34ae0;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border-radius: 10px;
+    }
